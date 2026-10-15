@@ -1,6 +1,6 @@
 {
-  "run": "20261015005452",
-  "utc": "2026-10-15T00:55:10.375735+00:00",
+  "run": "20261015165153",
+  "utc": "2026-10-15T16:51:53.738658+00:00",
   "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.36",
   "cpu_count": 16,
   "trino": {
@@ -10,11 +10,11 @@
     "environment": "docker",
     "coordinator": true,
     "starting": false,
-    "uptime": "11.91s"
+    "uptime": "14.00m"
   },
   "nodes": [
     [
-      "029e53d529f6",
+      "7a7a3679bb58",
       "476",
       true,
       "active"

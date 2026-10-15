@@ -1,5 +1,5 @@
 {
-  "run": "20261015005452",
+  "run": "20261015165153",
   "spark_version": "3.5.5",
   "tables": [
     {
@@ -271,6 +271,6 @@
       "total_quantity": 320.0
     }
   ],
-  "wall_seconds": 7.698187209999901,
+  "wall_seconds": 7.601281482000559,
   "all_counts_match": true
 }

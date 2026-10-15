@@ -1,140 +1,140 @@
 {
-  "run": "20261015005452",
+  "run": "20261015165153",
   "sf": 1,
-  "bronze": "bronze_20261015005452",
-  "silver": "silver_20261015005452",
-  "gold": "gold_20261015005452",
+  "bronze": "bronze_20261015165153",
+  "silver": "silver_20261015165153",
+  "gold": "gold_20261015165153",
   "metrics": [
     {
-      "table": "lakekeeper.bronze_20261015005452.customer",
+      "table": "lakekeeper.bronze_20261015165153.customer",
       "rows": 150000,
       "files": 1,
-      "data_bytes": 8174138,
-      "data_MiB": 7.795465469360352,
+      "data_bytes": 8195584,
+      "data_MiB": 7.81591796875,
       "file_paths": [
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/customer-45193ef940594574a9eccf41d0033029/data/20261015_005513_00005_gkpkn-926e8a78-19e3-44ba-a377-5a2fb08e458a.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/customer-2ada78009c244ab7ac1d39ec99b3acfb/data/20261015_165157_00005_x55ec-a3c3c013-7b68-42a1-8e6e-725a670bb0e7.parquet"
         ]
       ],
-      "metadata_bytes": 206443,
-      "all_objects_bytes": 8380581,
+      "metadata_bytes": 206646,
+      "all_objects_bytes": 8402230,
       "object_count": 6,
       "layer": "Bronze",
       "format": "PARQUET",
       "codec": "ZSTD",
-      "write_s": 6.880619652999997
+      "write_s": 11.691206281000632
     },
     {
-      "table": "lakekeeper.bronze_20261015005452.orders",
+      "table": "lakekeeper.bronze_20261015165153.orders",
       "rows": 1500000,
       "files": 2,
-      "data_bytes": 36630829,
-      "data_MiB": 34.93388080596924,
+      "data_bytes": 36645011,
+      "data_MiB": 34.94740581512451,
       "file_paths": [
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/orders-e0bc8796eadc4193aa6e4444e78ede2e/data/20261015_005521_00010_gkpkn-baa7b28d-d804-4e36-99e8-f572810515bf.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/orders-a0e1f0fd3e054756930a9b3306fcae68/data/20261015_165210_00010_x55ec-7fbdd10f-569a-4eae-84ca-0ec6d0248ec8.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/orders-e0bc8796eadc4193aa6e4444e78ede2e/data/20261015_005521_00010_gkpkn-e655b091-673b-4451-a4ca-bca08bc58d41.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/orders-a0e1f0fd3e054756930a9b3306fcae68/data/20261015_165210_00010_x55ec-a40d54be-4be8-4526-80fd-202d89d6420b.parquet"
         ]
       ],
-      "metadata_bytes": 168253,
-      "all_objects_bytes": 36799082,
+      "metadata_bytes": 168249,
+      "all_objects_bytes": 36813260,
       "object_count": 7,
       "layer": "Bronze",
       "format": "PARQUET",
       "codec": "ZSTD",
-      "write_s": 5.7084262710000075
+      "write_s": 5.497876833999726
     },
     {
-      "table": "lakekeeper.bronze_20261015005452.lineitem",
+      "table": "lakekeeper.bronze_20261015165153.lineitem",
       "rows": 6001215,
       "files": 8,
-      "data_bytes": 154406812,
-      "data_MiB": 147.25381088256836,
+      "data_bytes": 154368118,
+      "data_MiB": 147.21690940856934,
       "file_paths": [
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-1897767b-cd11-497f-ad48-a89a5ab25c9a.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-5db8261d-6365-4e4b-ad32-9177f565ebfe.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-64b49411-146d-4b20-b97b-d6086a88fa0d.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-a1fb01dd-77a0-4792-8d78-ad2a04d1df40.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-749bbe68-702e-446d-b3e9-df55db897b2f.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-0e5e2e4b-dc83-4192-99c6-99757250799f.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-024dc2d7-ea4e-4590-9a1c-80a1e4f90b0a.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-242e4cf5-f824-49ae-8bda-77ec7aa7a61d.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-602c4f16-cc3c-4b87-a9cc-7d76f15d57eb.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-16108c14-547c-407d-b2a2-7711b6f4ba50.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-90b34db1-8c34-4fa3-892a-de972a0e97a2.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-c9f45639-a432-41dc-ac64-818669c19c59.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-aed7e2b4-35a2-4575-a07c-9d7aae28c192.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-1ab84f40-8cb7-474c-a108-6ef4494ef299.parquet"
         ],
         [
-          "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-2fdbd3c9-1ee6-469e-bbe1-b26de92acc13.parquet"
+          "s3://warehouse/pr1/01a1407a-456d-7be3-9839-72a1cfbaf9be/lineitem-7793b4a11341445a93fd83ab33730b92/data/20261015_165217_00015_x55ec-e06ae910-96d1-432f-98f6-0c624dc3aec8.parquet"
         ]
       ],
-      "metadata_bytes": 237485,
-      "all_objects_bytes": 154644297,
+      "metadata_bytes": 237477,
+      "all_objects_bytes": 154605595,
       "object_count": 13,
       "layer": "Bronze",
       "format": "PARQUET",
       "codec": "ZSTD",
-      "write_s": 12.068376287999968
+      "write_s": 12.66085194400057
     },
     {
-      "table": "lakekeeper.silver_20261015005452.large_orders",
+      "table": "lakekeeper.silver_20261015165153.large_orders",
       "rows": 57,
       "files": 1,
-      "data_bytes": 798,
-      "data_MiB": 0.0007610321044921875,
+      "data_bytes": 794,
+      "data_MiB": 0.0007572174072265625,
       "file_paths": [
         [
-          "s3://warehouse/pr1/01a13d0e-5b53-7a90-b84f-fa2fd2d0d31c/large_orders-7c464f62274e4f248a12889eddb9cc65/data/20261015_005546_00028_gkpkn-0aa84fdd-179c-4c94-bbab-df4be3f5c670.parquet"
+          "s3://warehouse/pr1/01a1407a-45d1-79b0-8657-a6259a91d143/large_orders-a7830754d3514788970eecc23f61fd8c/data/20261015_165238_00028_x55ec-d8e6a8d1-fb33-4a36-9309-5f0522a7a24e.parquet"
         ]
       ],
-      "metadata_bytes": 14506,
-      "all_objects_bytes": 15304,
+      "metadata_bytes": 14512,
+      "all_objects_bytes": 15306,
       "object_count": 6,
       "layer": "Silver",
       "format": "PARQUET",
       "codec": "ZSTD"
     },
     {
-      "table": "lakekeeper.silver_20261015005452.order_lines",
+      "table": "lakekeeper.silver_20261015165153.order_lines",
       "rows": 399,
       "files": 1,
-      "data_bytes": 4085,
-      "data_MiB": 0.0038957595825195312,
+      "data_bytes": 4094,
+      "data_MiB": 0.0039043426513671875,
       "file_paths": [
         [
-          "s3://warehouse/pr1/01a13d0e-5b53-7a90-b84f-fa2fd2d0d31c/order_lines-39ed3d424e7f43eab722d8cc442bdf68/data/20261015_005547_00029_gkpkn-7821386d-a4f1-407f-a616-2df0267135bb.parquet"
+          "s3://warehouse/pr1/01a1407a-45d1-79b0-8657-a6259a91d143/order_lines-e84617a77ba0474da9614d5059adf5f2/data/20261015_165239_00029_x55ec-bcbc01a4-6573-4047-ad26-9e5bf79cfc6a.parquet"
         ]
       ],
-      "metadata_bytes": 18059,
-      "all_objects_bytes": 22144,
+      "metadata_bytes": 18073,
+      "all_objects_bytes": 22167,
       "object_count": 6,
       "layer": "Silver",
       "format": "PARQUET",
       "codec": "ZSTD"
     },
     {
-      "table": "lakekeeper.gold_20261015005452.q18",
+      "table": "lakekeeper.gold_20261015165153.q18",
       "rows": 57,
       "files": 1,
       "data_bytes": 2814,
       "data_MiB": 0.0026836395263671875,
       "file_paths": [
         [
-          "s3://warehouse/pr1/01a13d0e-5b8f-7222-b3be-f71342729c97/q18-c54d6a75cbde47a3b8cdde813b27b273/data/20261015_005548_00030_gkpkn-384584dc-4235-40dc-ae95-3f65d7854553.parquet"
+          "s3://warehouse/pr1/01a1407a-4610-7bb3-be94-065512f48a2c/q18-24d328b990674db29e0c8bc66f980f5e/data/20261015_165240_00030_x55ec-12e43b4d-27f0-406b-a745-9414445c743b.parquet"
         ]
       ],
-      "metadata_bytes": 17613,
-      "all_objects_bytes": 20427,
+      "metadata_bytes": 17609,
+      "all_objects_bytes": 20423,
       "object_count": 6,
       "layer": "Gold",
       "format": "PARQUET",
