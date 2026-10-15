@@ -1,0 +1,63 @@
+{
+  "id": "20261015_005810_00120_gkpkn",
+  "label": "paths",
+  "sql": "SELECT file_path FROM lakekeeper.bench_20261015005452_orc_gzip.\"orders$files\"",
+  "codec": "ZSTD",
+  "wall_seconds": 0.046430875000055494,
+  "stats": {
+    "state": "FINISHED",
+    "queued": false,
+    "scheduled": true,
+    "progressPercentage": 100.0,
+    "runningPercentage": 0.0,
+    "nodes": 1,
+    "totalSplits": 1,
+    "queuedSplits": 0,
+    "runningSplits": 0,
+    "completedSplits": 1,
+    "planningTimeMillis": 5,
+    "analysisTimeMillis": 14,
+    "cpuTimeMillis": 5,
+    "wallTimeMillis": 5,
+    "queuedTimeMillis": 0,
+    "elapsedTimeMillis": 35,
+    "finishingTimeMillis": 0,
+    "physicalInputTimeMillis": 0,
+    "processedRows": 2,
+    "processedBytes": 4893,
+    "physicalInputBytes": 4893,
+    "physicalWrittenBytes": 0,
+    "internalNetworkInputBytes": 0,
+    "peakMemoryBytes": 487,
+    "spilledBytes": 0,
+    "rootStage": {
+      "stageId": "0",
+      "state": "FINISHED",
+      "done": true,
+      "nodes": 1,
+      "totalSplits": 1,
+      "queuedSplits": 0,
+      "runningSplits": 0,
+      "completedSplits": 1,
+      "cpuTimeMillis": 5,
+      "wallTimeMillis": 5,
+      "processedRows": 2,
+      "processedBytes": 4893,
+      "physicalInputBytes": 4893,
+      "failedTasks": 0,
+      "coordinatorOnly": false,
+      "subStages": []
+    }
+  },
+  "columns": [
+    "file_path"
+  ],
+  "rows": [
+    [
+      "s3://warehouse/pr1/01a13d10-f244-7c92-9728-1c59580b7e29/orders-f98d5dba424541848d48b2206ae4d516/data/20261015_005805_00117_gkpkn-bfc8a785-f1c6-400c-bccb-01c5eea714e8.orc"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d10-f244-7c92-9728-1c59580b7e29/orders-f98d5dba424541848d48b2206ae4d516/data/20261015_005805_00117_gkpkn-c37b5ab3-f6f0-416c-97a1-4e52b30a6f84.orc"
+    ]
+  ]
+}

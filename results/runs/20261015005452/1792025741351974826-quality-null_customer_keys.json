@@ -1,0 +1,79 @@
+{
+  "id": "20261015_005540_00020_gkpkn",
+  "label": "quality-null_customer_keys",
+  "sql": "SELECT count(*) FROM lakekeeper.bronze_20261015005452.customer WHERE custkey IS NULL OR name IS NULL",
+  "codec": "ZSTD",
+  "wall_seconds": 0.36116263799999615,
+  "stats": {
+    "state": "FINISHED",
+    "queued": false,
+    "scheduled": true,
+    "progressPercentage": 100.0,
+    "runningPercentage": 0.0,
+    "nodes": 1,
+    "totalSplits": 4,
+    "queuedSplits": 0,
+    "runningSplits": 0,
+    "completedSplits": 4,
+    "planningTimeMillis": 87,
+    "analysisTimeMillis": 15,
+    "cpuTimeMillis": 141,
+    "wallTimeMillis": 165,
+    "queuedTimeMillis": 1,
+    "elapsedTimeMillis": 339,
+    "finishingTimeMillis": 1,
+    "physicalInputTimeMillis": 0,
+    "processedRows": 150000,
+    "processedBytes": 306411,
+    "physicalInputBytes": 306411,
+    "physicalWrittenBytes": 0,
+    "internalNetworkInputBytes": 44,
+    "peakMemoryBytes": 296,
+    "spilledBytes": 0,
+    "rootStage": {
+      "stageId": "0",
+      "state": "FINISHED",
+      "done": true,
+      "nodes": 1,
+      "totalSplits": 3,
+      "queuedSplits": 0,
+      "runningSplits": 0,
+      "completedSplits": 3,
+      "cpuTimeMillis": 2,
+      "wallTimeMillis": 2,
+      "processedRows": 1,
+      "processedBytes": 44,
+      "physicalInputBytes": 0,
+      "failedTasks": 0,
+      "coordinatorOnly": false,
+      "subStages": [
+        {
+          "stageId": "1",
+          "state": "FINISHED",
+          "done": true,
+          "nodes": 1,
+          "totalSplits": 1,
+          "queuedSplits": 0,
+          "runningSplits": 0,
+          "completedSplits": 1,
+          "cpuTimeMillis": 139,
+          "wallTimeMillis": 163,
+          "processedRows": 150000,
+          "processedBytes": 306411,
+          "physicalInputBytes": 306411,
+          "failedTasks": 0,
+          "coordinatorOnly": false,
+          "subStages": []
+        }
+      ]
+    }
+  },
+  "columns": [
+    "_col0"
+  ],
+  "rows": [
+    [
+      0
+    ]
+  ]
+}

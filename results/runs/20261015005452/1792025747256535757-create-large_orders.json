@@ -1,0 +1,117 @@
+{
+  "id": "20261015_005546_00028_gkpkn",
+  "label": "create-large_orders",
+  "sql": "CREATE TABLE lakekeeper.silver_20261015005452.large_orders WITH (format='PARQUET',format_version=2) AS SELECT orderkey,sum(quantity) AS total_quantity\n       FROM lakekeeper.bronze_20261015005452.lineitem GROUP BY orderkey HAVING sum(quantity)>300",
+  "codec": "ZSTD",
+  "wall_seconds": 0.7266259269999864,
+  "stats": {
+    "state": "FINISHED",
+    "queued": false,
+    "scheduled": true,
+    "progressPercentage": 100.0,
+    "runningPercentage": 0.0,
+    "nodes": 1,
+    "totalSplits": 25,
+    "queuedSplits": 0,
+    "runningSplits": 0,
+    "completedSplits": 25,
+    "planningTimeMillis": 66,
+    "analysisTimeMillis": 19,
+    "cpuTimeMillis": 1525,
+    "wallTimeMillis": 1862,
+    "queuedTimeMillis": 1,
+    "elapsedTimeMillis": 708,
+    "finishingTimeMillis": 0,
+    "physicalInputTimeMillis": 255,
+    "processedRows": 6001215,
+    "processedBytes": 11915615,
+    "physicalInputBytes": 11915615,
+    "physicalWrittenBytes": 798,
+    "internalNetworkInputBytes": 24012944,
+    "peakMemoryBytes": 1863347,
+    "spilledBytes": 0,
+    "rootStage": {
+      "stageId": "0",
+      "state": "FINISHED",
+      "done": true,
+      "nodes": 1,
+      "totalSplits": 3,
+      "queuedSplits": 0,
+      "runningSplits": 0,
+      "completedSplits": 3,
+      "cpuTimeMillis": 48,
+      "wallTimeMillis": 184,
+      "processedRows": 17,
+      "processedBytes": 3463,
+      "physicalInputBytes": 0,
+      "failedTasks": 0,
+      "coordinatorOnly": true,
+      "subStages": [
+        {
+          "stageId": "1",
+          "state": "FINISHED",
+          "done": true,
+          "nodes": 1,
+          "totalSplits": 10,
+          "queuedSplits": 0,
+          "runningSplits": 0,
+          "completedSplits": 10,
+          "cpuTimeMillis": 14,
+          "wallTimeMillis": 22,
+          "processedRows": 57,
+          "processedBytes": 1022,
+          "physicalInputBytes": 0,
+          "failedTasks": 0,
+          "coordinatorOnly": false,
+          "subStages": [
+            {
+              "stageId": "2",
+              "state": "FINISHED",
+              "done": true,
+              "nodes": 1,
+              "totalSplits": 4,
+              "queuedSplits": 0,
+              "runningSplits": 0,
+              "completedSplits": 4,
+              "cpuTimeMillis": 423,
+              "wallTimeMillis": 426,
+              "processedRows": 1500429,
+              "processedBytes": 24008459,
+              "physicalInputBytes": 0,
+              "failedTasks": 0,
+              "coordinatorOnly": false,
+              "subStages": [
+                {
+                  "stageId": "3",
+                  "state": "FINISHED",
+                  "done": true,
+                  "nodes": 1,
+                  "totalSplits": 8,
+                  "queuedSplits": 0,
+                  "runningSplits": 0,
+                  "completedSplits": 8,
+                  "cpuTimeMillis": 1040,
+                  "wallTimeMillis": 1230,
+                  "processedRows": 6001215,
+                  "processedBytes": 11915615,
+                  "physicalInputBytes": 11915615,
+                  "failedTasks": 0,
+                  "coordinatorOnly": false,
+                  "subStages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "columns": [
+    "rows"
+  ],
+  "rows": [
+    [
+      57
+    ]
+  ]
+}

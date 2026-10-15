@@ -1,0 +1,81 @@
+{
+  "id": "20261015_005540_00018_gkpkn",
+  "label": "paths",
+  "sql": "SELECT file_path FROM lakekeeper.bronze_20261015005452.\"lineitem$files\"",
+  "codec": "ZSTD",
+  "wall_seconds": 0.09273072299993146,
+  "stats": {
+    "state": "FINISHED",
+    "queued": false,
+    "scheduled": true,
+    "progressPercentage": 100.0,
+    "runningPercentage": 0.0,
+    "nodes": 1,
+    "totalSplits": 1,
+    "queuedSplits": 0,
+    "runningSplits": 0,
+    "completedSplits": 1,
+    "planningTimeMillis": 7,
+    "analysisTimeMillis": 24,
+    "cpuTimeMillis": 24,
+    "wallTimeMillis": 27,
+    "queuedTimeMillis": 1,
+    "elapsedTimeMillis": 77,
+    "finishingTimeMillis": 0,
+    "physicalInputTimeMillis": 0,
+    "processedRows": 8,
+    "processedBytes": 35597,
+    "physicalInputBytes": 35597,
+    "physicalWrittenBytes": 0,
+    "internalNetworkInputBytes": 0,
+    "peakMemoryBytes": 1797,
+    "spilledBytes": 0,
+    "rootStage": {
+      "stageId": "0",
+      "state": "FINISHED",
+      "done": true,
+      "nodes": 1,
+      "totalSplits": 1,
+      "queuedSplits": 0,
+      "runningSplits": 0,
+      "completedSplits": 1,
+      "cpuTimeMillis": 24,
+      "wallTimeMillis": 27,
+      "processedRows": 8,
+      "processedBytes": 35597,
+      "physicalInputBytes": 35597,
+      "failedTasks": 0,
+      "coordinatorOnly": false,
+      "subStages": []
+    }
+  },
+  "columns": [
+    "file_path"
+  ],
+  "rows": [
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-1897767b-cd11-497f-ad48-a89a5ab25c9a.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-64b49411-146d-4b20-b97b-d6086a88fa0d.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-749bbe68-702e-446d-b3e9-df55db897b2f.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-024dc2d7-ea4e-4590-9a1c-80a1e4f90b0a.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-602c4f16-cc3c-4b87-a9cc-7d76f15d57eb.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-90b34db1-8c34-4fa3-892a-de972a0e97a2.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-aed7e2b4-35a2-4575-a07c-9d7aae28c192.parquet"
+    ],
+    [
+      "s3://warehouse/pr1/01a13d0e-5afe-7710-bae4-a66e6fa26879/lineitem-1a43b2c2ec38499f83f7b9a61f19bbd1/data/20261015_005528_00015_gkpkn-2fdbd3c9-1ee6-469e-bbe1-b26de92acc13.parquet"
+    ]
+  ]
+}
